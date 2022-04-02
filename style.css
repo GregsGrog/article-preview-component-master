@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex; /* or inline-flex */
+    justify-content: center;
+    gap: 0px;
+    height: 280px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+.item {
+  margin:0px;
+}
+.image{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 280px;
+    width: 287px;
+}
+.text{
+    width: 450px;
+    padding: 37px;
+    padding-top: 30px;
+    background-color: white;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 13px;
+    color: hsl(217, 19%, 35%);
+}
+
+.header{
+    margin: 0px;
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.paragraph{
+    margin: 0px;
+}
+
+.attribution-container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .attribution-container>div {
+    margin-top: 20px;
+    box-sizing:border-box;
+  }
+  .attribution-container>div:first-child {
+     width:40px;
+     flex-shrink:0;
+     text-align: center;
+     margin-right: 17px;
+  }
+  .attribution-container>div:nth-child(2) {
+    flex-grow:1;
+  }
+  .flattributionex-container>div:nth-child(3) {
+    flex-grow:1;
+    max-width:200px; 
+    text-align: center;
+  }
+
+  .attribution-image{
+    border-radius: 50%;
+    width:40px
+  }
+
+  .attribution-header{
+    margin:0px;
+    font-weight: bold;
+  }
+
+  .attribution-header:hover{
+    color:  hsl(212, 23%, 69%);
+  }
+
+  .attribution-date{
+    margin:0px
+  }
+
+  .share{
+    background-color:  hsl(210, 46%, 95%);
+    width: 32px;
+    height:32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+  }
+
+
+  .share:hover{
+    background-color: hsl(217, 19%, 35%);
+    width: 32px;
+    height:32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+  }
+  .sharebox{
+    width: 248px;
+    height: 53px;
+    background-color: hsl(217, 19%, 35%);
+    position: absolute;
+    top: 140px;
+    right: -70px;
+    border-radius: 11px;
+    justify-content: center;
+    align-items:center;
+    display: flex; /* gets set to flex via jquery */
+    flex-direction:column;
+  }
+
+  
+.triangle-topleft {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid hsl(217, 19%, 35%);
+  position: absolute;
+  bottom: -20px;
+}
+
+.control-container {
+  display: flex; /* or inline-flex */
+  gap: 16px;
+}
+
+.control-item {
+  order: 5; /* default is 0 */
+}
+
+.control-item p {
+  color: white;
+  letter-spacing: 7px;
+}
+
+.share-icon{
+  padding-top: 50%;
+}
+
+.jquery-handle{
+  display: none;
+}
+
+@media only screen and (max-width: 550px) {
+  body{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+  
+  .container {
+        
+    display: flex; /* or inline-flex */
+    justify-content: center;
+    gap: opx;
+    flex-wrap: wrap;
+    margin-left:13px;
+    margin-right:13px;
+  }
+
+  .image{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+    
+    margin: 0px;
+}
+.text{
+    margin:0px;
+    width: 450px;
+    padding: 37px;
+    padding-top: 30px;
+    background-color: white;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-size: 13px;
+    color: hsl(217, 19%, 35%);
+}
+
+ }

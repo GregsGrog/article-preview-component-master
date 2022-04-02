@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Article preview component</title>
+</head>
+<body>
+<main>
+<div class="container">
+  <div class="item">
+    <img class="image" src="./images/drawers.jpg">
+  </div>
+  <div class="item text">
+    <h2 class="header">Shift the overall look and feel by adding these wonderful 
+      touches to furniture in your home
+    </h2>
+      <p class="paragraph">
+        Ever been in a room and felt like something was missing? Perhaps 
+        it felt slightly bare and uninviting. I’ve got some simple tips 
+        to help you make any room feel complete.
+      </p>
+      <div class="attribution-container">
+        <div><img class="attribution-image" src="./images/avatar-michelle.jpg" alt="Avatar"></div>
+        <div>
+          <h4 class="attribution-header">Michelle Appleton</h4>
+          <p class="attribution-date">28 Jun 2020</p>
+        </div>
+        
+        <div class="share">
+          <div class="jquery-handle">
+          <div class="sharebox">
+            <div class="triangle-topleft"></div>
+            <div class="control-container">
+              <div class="control-item">
+                <p>SHARE</p>
+              </div>
+              <div class="control-item">
+                <img class="share-icon" src="./images/icon-facebook.svg">
+              </div>
+              <div class="control-item">
+                <img class="share-icon" src="./images/icon-twitter.svg">
+              </div>
+              <div class="control-item">
+                <img class="share-icon" src="./images/icon-Pinterest.svg">
+              </div>
+            </div>
+          </div>
+        </div>
+          
+          <img src="./images/icon-share.svg" alt="Share Arrow">
+        </div>
+      </div>
+
+  </div>
+</div>
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+  $('.share').click(
+    function() {
+      $(".jquery-handle").fadeToggle();
+    });
+  
+</script>
+
+</body>
+</html>
