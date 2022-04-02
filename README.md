@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT/hub/article-preview-card-challenge-S15O2y875](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT/hub/article-preview-card-challenge-S15O2y875)
+- Live Site URL: [https://gregsgrog.github.io/article-preview-component-master/](https://gregsgrog.github.io/article-preview-component-master/)
 
 ## My process
 My process included creating the mockup in figma and then using the figma mockup before creating my html elements and applying the css.
